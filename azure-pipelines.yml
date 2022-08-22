@@ -40,7 +40,7 @@ steps:
 
 - template: templates/build.yml
   parameters:
-    buildConfiguration: 'Staging'
+    buildConfiguration: 'Debug'
 
 - template: templates/build.yml
   parameters:
